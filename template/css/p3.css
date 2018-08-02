@@ -1,0 +1,73 @@
+.page-3 {
+    /* background-color: aquamarine; */
+    width: 1920px;
+    height: 1000px;
+    background-image: url(../img/two_color_background.png);
+}
+
+.istory-words {
+    padding: 8% 0 0 9%;
+}
+
+.awards-background {
+    height: 300px;
+    margin-top: 8%;
+    background-image: url(../img/awards_background_line.png);
+}
+
+.white-block {
+    background-color: white;
+    width: 250px;
+    height: 350px;
+    border-radius: 30px;
+    position: relative;
+    top: 0px;
+    -webkit-box-shadow: 0 8px 6px -6px grey;
+    ;
+    -moz-box-shadow: 0 8px 6px -6px grey;
+    ;
+    box-shadow: 0 8px 6px -6px grey;
+}
+.touch-icon{
+    position: relative;
+    left: 15px;
+    top: 5px;
+}
+
+
+.wings {
+    position: relative;
+    z-index: 5;
+    width: 250px;
+    height: 350px;
+    left: -60px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.heart {
+    position: relative;
+    z-index: 5;
+    width: 250px;
+    height: 350px;
+    left: 32px;
+    top: -15px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.mk {
+    position: relative;
+    z-index: 5;
+    width: 250px;
+    height: 350px;
+    left: -17px;
+    top: 21px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {}
