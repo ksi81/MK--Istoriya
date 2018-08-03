@@ -1,0 +1,71 @@
+.half-year-period{
+    padding: 5% 10% 0 0;
+    text-align:right
+}
+.toltip-box-headhalf-year{
+    font-size: 35px;
+    color: #DF4380;
+       font-weight: 700;
+}
+
+
+.pink-line2 {
+    position: relative;
+    left: -15%;
+    width: 45%;
+    background-color: #624B77;
+    border: 2px solid #624B77;
+}
+
+.pink-line3 {
+    position: relative;
+    left: -15%;
+    width: 45%;
+    background-color: #624B77;
+    border: 2px solid #624B77;
+}
+.toltip-box-head-headhalf-year{
+    font-size: 35px;
+    color: #DF4380;
+    padding-top: 5%;
+  
+    font-weight: 700;
+}
+
+
+
+.toltip-box-meta-headhalf-year{
+    font-size: 70px;
+    color: #624B77;
+      font-weight: 700;
+}
+
+.toltip-box-meta-headhalf-year2{
+    font-size: 50px;
+    color: #624B77;
+    padding-top: 7%;
+     font-weight: 700;
+}
+
+
+.img-container {
+    width: 100%;
+    height: 100%;   
+}
+
+
+@media only screen and (max-width: 500px) {
+    .toltip-box-meta-headhalf-year{
+        font-size: 50px;
+        color: #624B77;
+          font-weight: 700;
+    }
+
+    
+.iquarter-icon {
+    /* position: relative; */
+    margin-left: 69%;
+    padding-bottom: 3%;
+}
+    
+}
