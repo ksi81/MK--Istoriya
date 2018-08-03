@@ -97,14 +97,8 @@ body {
 
 
 @media only screen and (max-width: 900px) {
-    .toltip-icon {
-        top: -18px;
-        left: 250px;
-    }
-    .toltip {
-        width: 380px;
-        height: 250px;
-    }
+   
+    
     #carouselExampleIndicators {
         /* display: none; */
     }
@@ -124,5 +118,8 @@ body {
     .my-header-msg p {
         font-size: 20px;
         text-align: center;
+    }
+    .my-header-btn {
+        margin-bottom: 5%;
     }
 }
