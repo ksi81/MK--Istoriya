@@ -1,5 +1,13 @@
+.headliners {
+    font-family: 'Century Gothic';
+    font-size: 100px;
+    padding: 5% 0 5% 0;
+    color: #624b77;
+    font-weight: 700;
+}
+
 .toltip {
-    width: 500px;
+    /* width: 500px;
     height: 300px;
     background-color: #de437f;
     border: 2 ps solid rebeccapurple;
@@ -8,28 +16,26 @@
     ;
     -moz-box-shadow: 0 8px 6px -6px #de437f;
     ;
-    box-shadow: 0 8px 6px -6px #de437f;
+    box-shadow: 0 8px 6px -6px #de437f; */
     ;
 }
 
 .toltip-box {
-    width: 491px;
+    /* width: 491px;
     height: 290px;
     background-color: white;
     /* border: 2 ps solid black; */
     padding-left: 20px;
     z-index: 10;
-    position: relative;
+    position: relative; */
 }
 
 .toltip-icon {
     width: 30px;
     height: 30px;
     background-color: none;
-    -ms-transform: rotate(20deg);
-    /* IE 9 */
-    -webkit-transform: rotate(20deg);
-    /* Safari 3-8 */
+    -ms-transform: rotate(20deg);    /* IE 9 */
+    -webkit-transform: rotate(20deg);    /* Safari 3-8 */
     transform: rotate(45deg);
     border: 4px solid #de437f;
     z-index: 2;
@@ -60,7 +66,7 @@
     left: -15%;
     width: 45%;
     background-color: #de437f;
-    border: 1px solid #de437f;
+    border: 2px solid #de437f;
 }
 
 .iquarter-icon {
@@ -98,11 +104,12 @@
     z-index: 3;
 }
 
+
 .line2 {
     align-items: flex-end;
     width: 45%;
     background-color: #624b77;
-    border: 1px solid #624b77;
+    border: 2px solid #624b77;
     position: relative;
     left: 27%;
 }
