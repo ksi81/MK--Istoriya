@@ -1,0 +1,30 @@
+.pink5 {
+    background-color: #DF4380;
+    height: 10px;
+}
+.page-5 {
+     background: url(../img/mka_quote_pattern.png) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     min-height: 600px;
+}
+.background2{
+    background-color: white;
+    border-radius: 5ps solid white;
+    width: 50%;
+}
+
+.col-color{
+    background-color: white;
+    border-radius: 30px;
+    width: 50%;
+    min-width: 200px;
+    background: white; /* Цвет фона */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+}
+
+
+@media only screen and (max-width: 900px) {}
