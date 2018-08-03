@@ -1,0 +1,23 @@
+.pink-line6{
+   
+        position: relative;
+        left: -17%;
+        width: 65%;
+        background-color: #624B77;
+        border: 2px solid #624B77;
+}
+.toltip-box-meta-year{
+    font-size: 50px;
+    color: #DF4380;
+    padding-top: 7%;
+    font-weight: 700; 
+}
+.toltip-box-head-year{
+    font-size: 35px;
+    color: #624B77;
+    padding-top: 5%;
+    font-weight: 700;
+}
+
+
+@media only screen and (max-width: 900px) {}
