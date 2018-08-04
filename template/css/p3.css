@@ -142,4 +142,10 @@
     margin: 0;
 }
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 768px) {
+    .awards-background {
+        /* height: 300px; */
+        margin-top: 8%;
+        background-image: none;
+    }
+}
