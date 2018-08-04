@@ -136,10 +136,10 @@
     padding: 5% 0 5% 0;
     color: #624b77;
     font-weight: 700;
+    font-size: 70px;
 }
-@media (min-width: @screen-sm-min) { 
-    /* ... }
-@media only screen and (max-width: 500px) { */
+@media only screen and (max-width: 768px) {
+
     .toltip-icon {
        
         top: -20px;
@@ -147,7 +147,15 @@
        
     }
     .headliners {
-        font-size: 40px;
+      
+        font-size: 50px;
+    }
+    .toltip-box-meta {
+        font-size: 7px;
+        padding-top: 5%;
+        color: #DF4380;
+        font-weight: bold;
+        padding: 0;
     }
     .wings-award {
         position: relative;

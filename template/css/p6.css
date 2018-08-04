@@ -42,16 +42,20 @@
 
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and ( max-width: 768px) {
     .toltip-box-meta-year{
         font-size: 35px;
     }
 
     .toltip-icon-year {
        
-        top: 335px;
+        top: 308px;
         left: -410px;
     
     }
     
+    .toltip-box-meta-year{
+        font-size: 30px;
+      
+    }
 }

@@ -93,11 +93,11 @@ body {
 }
 
 
-
+/* 
 
 @media (min-width: @screen-sm-min) { 
-    /* ... }
-@media only screen and (max-width: 500px) { */
+    /* ... } */
+@media only screen and (max-width: 768px) {
    
     
     #carouselExampleIndicators {
@@ -111,7 +111,7 @@ body {
        display: none;
        
     }
-
+  
 
     .my-header-msg {
         padding-top: 0%;
