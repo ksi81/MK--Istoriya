@@ -19,5 +19,39 @@
     font-weight: 700;
 }
 
+.toltip-icon-year {
+    width: 30px;
+    height: 30px;
+    background-color: none;
+    -ms-transform: rotate(20deg);
+    /* IE 9 */
+    -webkit-transform: rotate(20deg);
+    /* Safari 3-8 */
+    transform: rotate(45deg);
+    border: 4px solid #de437f;
+    z-index: 2;
+    position: relative;
+    top: 398px;
+    left: -700px;
+    
+    background-color: white;
+    padding: 0;
+}
 
-@media only screen and (max-width: 900px) {}
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .toltip-box-meta-year{
+        font-size: 35px;
+    }
+
+    .toltip-icon-year {
+       
+        top: 335px;
+        left: -410px;
+    
+    }
+    
+}
