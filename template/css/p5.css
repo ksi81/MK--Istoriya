@@ -20,11 +20,19 @@
     background-color: white;
     border-radius: 30px;
     width: 50%;
-    min-width: 200px;
-    background: white; /* Цвет фона */
-    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
-    padding: 10px;
+    min-width: 329px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 25px;
+    margin: 13px;
 }
 
 
-@media only screen and (max-width: 900px) {}
+@media only screen and (max-width: 900px) {
+
+
+.page-5 {
+
+    min-height: 319px;
+}
+}
