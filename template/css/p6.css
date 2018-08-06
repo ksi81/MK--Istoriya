@@ -1,18 +1,40 @@
-.pink-line6{
-   
-        position: relative;
-        left: -17%;
-        width: 65%;
-        background-color: #624B77;
-        border: 2px solid #624B77;
+.line-meta-year {
+    position: relative;
+    left: -30%;
+    width: 19%;
+    background-color: #de437f;
+    border: 2px solid #de437f;
 }
-.toltip-box-meta-year{
+
+.pink-line6 {
+    position: relative;
+    left: -17%;
+    width: 65%;
+    background-color: #624B77;
+    border: 2px solid #624B77;
+}
+
+.line7 {
+    position: relative;
+    left: 20%;
+    width: 45%;
+    background-color: #de437f;
+    border: 2px solid #de437f;
+}
+
+.year-icon{
+    margin-left: 83%;
+    padding-bottom: 8%;
+}
+
+.toltip-box-meta-year {
     font-size: 50px;
     color: #DF4380;
     padding-top: 7%;
-    font-weight: 700; 
+    font-weight: 700;
 }
-.toltip-box-head-year{
+
+.toltip-box-head-year {
     font-size: 35px;
     color: #624B77;
     padding-top: 5%;
@@ -33,29 +55,54 @@
     position: relative;
     top: 458px;
     left: -819px;
-       
     background-color: white;
     padding: 0;
 }
 
-
-
+.img-last{
+    width: 100%;;
+}
+.img-last-2{
+    width: 100%;
+}
+.last-div{
+    background: url(../img/partof_footer.png) ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     /* min-height: 1000px; */
+     background-color: #DF4380;
+    text-align: center;
+    padding-top: 2%;
+    
+    }
 
 
 @media only screen and ( max-width: 768px) {
-    .toltip-box-meta-year{
+    .toltip-box-meta-year {
         font-size: 35px;
     }
-
     .toltip-icon-year {
-       
         top: 308px;
         left: -410px;
-    
     }
-    
-    .toltip-box-meta-year{
-        font-size: 30px;
-      
+    .toltip-box-meta-year {
+        font-size: 40px;
+    }
+
+    .year-icon {
+        margin-left: 64%;
+        padding-bottom: 8%;
+    }
+    .line-meta-year {
+        position: relative;
+        left: 21%;
+        width: 39%;
+        background-color: #de437f;
+        border: 2px solid #de437f;
+    }
+    .img-last-3{
+        width: 71%;
     }
 }

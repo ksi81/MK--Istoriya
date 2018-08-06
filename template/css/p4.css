@@ -1,3 +1,15 @@
+.toltip-headhalf-year {
+    /* width: 500px;
+    height: 300px; */
+    background-color: #624B77;
+    border: 2 ps solid rebeccapurple;
+    padding: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px #624B77;
+    -moz-box-shadow: 0 8px 6px -6px #624B77;
+    box-shadow: 0 8px 6px -6px #624B77;
+}
+
+
 .half-year-period {
     padding: 5% 10% 0 0;
     text-align: right
@@ -28,7 +40,7 @@
 .toltip-box-head-headhalf-year {
     font-size: 35px;
     color: #DF4380;
-    padding-top: 5%;
+    padding-top: 15%;
     font-weight: 700;
 }
 
@@ -61,17 +73,17 @@
     -webkit-transform: rotate(20deg);
     /* Safari 3-8 */
     transform: rotate(45deg);
-    border: 4px solid #de437f;
+    border: 4px solid #624B77;
     z-index: 2;
     position: relative;
-    top: 50px;
+    top: 100px;
     left: -35px;
     background-color: white;
     padding: 0;
 }
 
 .half-year-icon {
-    margin-left: 70%;
+    margin-left: 75%;
     padding-bottom: 8%;
 }
 
@@ -97,14 +109,15 @@ margin-bottom: -200px;
 @media (max-width: 751px){
     .toltip-box-meta-headhalf-year {
         font-size: 50px;
-        color: #624B77;
+       
         font-weight: 700;
     }
     .half-year-icon {
         position: relative;
         margin-left: 68%;
-        margin-top: -100px;
+        margin-top: -48px;
         padding: 0;
+        margin-bottom: 10px;
     }
     .toltip-icon2 {
         top: -22px;
@@ -113,10 +126,11 @@ margin-bottom: -200px;
     .party-div{
         position: relative;
         top: 0px;
+        margin-bottom: 217px;
     }
     .toltip-box-meta-headhalf-year2 {
         font-size: 40px;
-        color: #624B77;
+      
         padding-top: 7%;
         font-weight: 700;
     }
