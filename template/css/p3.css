@@ -144,7 +144,9 @@
 }
 
 @media (min-width: 1321px){}
-@media (min-width: 1112px) and (max-width: 1320px){}
+@media (min-width: 1112px) and (max-width: 1320px){
+    
+}
 @media (min-width: 752px) and (max-width: 1111px){
     .awards-background {
         /* height: 300px; */
@@ -155,6 +157,26 @@
     .istory-words {
         padding: 8% 0 0 0%;
         padding-top: 11px;
+    }
+   
+    .white-block {
+        background-color: white;
+        width: 250px;
+        height: 350px;
+        border-radius: 30px;
+        position: none;
+        /* top: -48px; */
+        -webkit-box-shadow: 0 8px 6px -6px grey;
+        ;
+        -moz-box-shadow: 0 8px 6px -6px grey;
+        ;
+        box-shadow: 0 8px 6px -6px grey;
+    }
+
+    .awards-background {
+        height: auto;
+        margin-top: 0%; 
+        background-image: none;
     }
     
 
@@ -187,7 +209,8 @@
 
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 908px) {
    
-
+ 
+    
 }

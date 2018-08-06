@@ -22,9 +22,9 @@
     border: 2px solid #de437f;
 }
 
-.year-icon{
-    margin-left: 83%;
-    padding-bottom: 8%;
+.year-icon {
+    margin-left: 76%;
+    padding-bottom: 5%;
 }
 
 .toltip-box-meta-year {
@@ -59,25 +59,26 @@
     padding: 0;
 }
 
-.img-last{
-    width: 100%;;
+.img-last {
+    width: 100%;
+    ;
 }
-.img-last-2{
+
+.img-last-2 {
     width: 100%;
 }
-.last-div{
-    background: url(../img/partof_footer.png) ;
+
+.last-div {
+    background: url(../img/partof_footer.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-     background-size: cover;
-     /* min-height: 1000px; */
-     background-color: #DF4380;
+    background-size: cover;
+    /* min-height: 1000px; */
+    background-color: #DF4380;
     text-align: center;
     padding-top: 2%;
-    
-    }
-
+}
 
 @media only screen and ( max-width: 768px) {
     .toltip-box-meta-year {
@@ -90,7 +91,6 @@
     .toltip-box-meta-year {
         font-size: 40px;
     }
-
     .year-icon {
         margin-left: 64%;
         padding-bottom: 8%;
@@ -102,7 +102,7 @@
         background-color: #de437f;
         border: 2px solid #de437f;
     }
-    .img-last-3{
+    .img-last-3 {
         width: 71%;
     }
 }

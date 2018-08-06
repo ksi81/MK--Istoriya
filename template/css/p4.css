@@ -56,6 +56,12 @@
     padding-top: 7%;
     font-weight: 700;
 }
+.prize-headhalf-year{
+    font-size: 35px;
+    color: #DF4380;
+    /* padding-top: 15%; */
+    font-weight: 700;
+}
 
 .img-container {
     /* width: 100%; */

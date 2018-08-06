@@ -8,7 +8,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
      background-size: cover;
-     min-height: 600px;
+     min-height: 500px;
 }
 .background2{
     background-color: white;
@@ -18,7 +18,7 @@
 
 .col-color{
     background-color: white;
-    border-radius: 30px;
+    border-radius: 50px;
     width: 50%;
     min-width: 329px;
     background: white;
@@ -26,13 +26,31 @@
     padding: 25px;
     margin: 13px;
 }
-
-
-@media only screen and (max-width: 900px) {
-
-
-.page-5 {
-
-    min-height: 319px;
+.d-block img{
+    width: 100%;
 }
+
+.mk-quote{
+    padding-top: 30px;
 }
+
+@media (min-width: 1321px) {}
+
+@media (min-width: 1024px) and (max-width: 1320px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .page-5 {
+
+        min-height: 319px;
+    }
+}
+
+@media (max-width: 767px) {
+    .d-block img{
+        width: 50%;
+    }
+}
+
+
