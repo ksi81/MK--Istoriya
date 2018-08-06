@@ -146,17 +146,32 @@
     left: 78px;
 }
 
-@media only screen and (max-width: 768px) {
-    .toltip-icon {
-        top: -20px;
-        left: 46px;
-    }
+@media (min-width: 1321px) {}
 
+@media (min-width: 1024px) and (max-width: 1320px) {
+    .toltip-icon {
+        top: -237px;
+        left: 411px
+    }
+    .toltip-box-meta {
+        font-size: 50px;
+        padding-top: 5%;
+        color: #DF4380;
+        font-weight: bold;
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .toltip-icon {
+        top: -194px;
+        left: 238px;
+    }
     .iquarter-icon {
         position: relative;
         margin-left: 68%;
         margin-top: -100px;
-        padding:0;
+        padding: 0;
     }
     .headliners {
         font-size: 70px;
@@ -169,7 +184,7 @@
         padding: 0;
     }
     .toltip-box-meta {
-        font-size: 30px;
+        font-size: 40px;
         padding-top: 5%;
         color: #DF4380;
         font-weight: bold;
@@ -180,5 +195,30 @@
         height: 200px;
         left: -112px;
         top: -16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .toltip-box-meta {
+        font-size: 40px;
+    }
+    .toltip-icon {
+        top: -20px;
+        left: 43px;
+    }
+    .iquarter-icon {
+    
+        margin-left: 68%;
+        padding-bottom: 4%;
+    }
+
+    .block-wings_award img {
+        overflow: hidden;
+        max-width: 83%;
+        max-height: 62%;
+        vertical-align: middle;
+        position: relative;
+        top: 99px;
+        left: -99px;
     }
 }

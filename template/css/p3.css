@@ -143,7 +143,9 @@
     margin: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 1321px){}
+@media (min-width: 1112px) and (max-width: 1320px){}
+@media (min-width: 752px) and (max-width: 1111px){
     .awards-background {
         /* height: 300px; */
         margin-top: 8%;
@@ -155,5 +157,15 @@
         padding-top: 11px;
     }
     
+
+}
+@media (max-width: 751px){}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+   
 
 }

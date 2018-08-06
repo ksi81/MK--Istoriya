@@ -141,32 +141,40 @@ body {
 
 @media (min-width: @screen-sm-min) { 
     /* ... } */
-@media only screen and (max-width: 500px) {
-   
-    
-    #carouselExampleIndicators {
-        /* display: none; */
-    }
-    .my-header-name {
-        font-size: 35px;
-        text-align: center;
-    }
-    .mk-line {
-       display: none;
-       
-    }
-    .headliners{
-        font-size: 35px;
-    }
+    @media (min-width: 1321px){}
+    @media (min-width: 1112px) and (max-width: 1320px){}
+    @media (min-width: 752px) and (max-width: 1111px){
+        .my-header-msg {
+            padding-top: 2%;
+        }
 
-    .my-header-msg {
-        padding-top: 0%;
+    
+        #carouselExampleIndicators {
+            /* display: none; */
+        }
+        .my-header-name {
+            font-size: 35px;
+            text-align: center;
+        }
+        .mk-line {
+           display: none;
+           
+        }
+        .headliners{
+            font-size: 35px;
+        }
+            
+        .my-header-msg p {
+            font-size: 20px;
+            text-align: center;
+        }
+        .my-header-btn {
+            margin-bottom: 5%;
+        }
+
+
+
     }
-    .my-header-msg p {
-        font-size: 20px;
-        text-align: center;
-    }
-    .my-header-btn {
-        margin-bottom: 5%;
-    }
-}
+    @media (max-width: 751px){}
+    
+
