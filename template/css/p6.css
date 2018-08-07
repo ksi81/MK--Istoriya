@@ -35,7 +35,7 @@
 }
 
 .toltip-box-head-year {
-    font-size: 2em;
+    font-size: 2.5em;
     color: #624B77;
     padding-top: 5%;
     font-weight: 700;
@@ -95,14 +95,14 @@
 
 @media only screen and ( max-width: 768px) {
     .toltip-box-meta-year {
-        font-size: 35px;
+        font-size: 1em;
     }
     .toltip-icon-year {
         top: 308px;
         left: -410px;
     }
     .toltip-box-meta-year {
-        font-size: 40px;
+        font-size: 2.5em;
     }
     .year-icon {
         margin-left: 68%;
@@ -118,4 +118,6 @@
     .img-last-3 {
         width: 71%;
     }
+    .toltip-box-head-year {
+        font-size: 2em;}
 }

@@ -8,7 +8,7 @@
 }
 
 .istory-words {
-    padding: 8% 0 0 10%;
+    padding: 6% 0 0 5%;
     /* padding-top: 11px; */
 }
 
@@ -125,6 +125,7 @@
     border: 2px solid #de437f;
     position: relative;
     top: -51%;
+    left: 18%;
 }
 
 .girl-awards {

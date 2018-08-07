@@ -4,12 +4,12 @@
 }
 
 .page-5 {
-    /* background: url(../img/mka_quote_pattern.png) no-repeat center top fixed;
+    background: url(../img/mka_quote_pattern.png) no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    min-height: 500px; */
+    min-height: 640px;
 }
 
 .background2 {
@@ -22,19 +22,39 @@
     background-color: white;
     border-radius: 50px;
     width: 50%;
-    min-width: 329px;
+    min-width: 330px;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 25px;
-    margin: 13px;
+    margin: 23px;
+    margin-top: 12%;
 }
 
 .d-block img {
-    width: 100%;
+    width: 10%;
 }
 
+.mk-photo{
+    width: 55%;
+}
+
+.mk-photo-block{
+/* text-align: center; */
+position: relative;
+left: 8%;
+
+}
 .mk-quote {
-    padding-top: 30px;
+    padding-top:0px;
+}
+
+.mk-mk-quote-img {
+    width: 25%;
+    position: relative;
+    /* right: 1%; */
+    left: 111%;
+    width: 15%;
+    top: -60%;
 }
 
 @media (min-width: 1321px) {}
@@ -49,6 +69,19 @@
 
 @media (max-width: 767px) {
     .d-block img {
-        width: 50%;
+        width: 10%;
+    }
+
+    .mk-mk-quote-img {
+        width: 25%;
+        position: relative;
+        /* right: 1%; */
+        
+        
+    }
+    .mk-photo-block {
+        text-align: center;
+        position: relative;
+        left: 21%;
     }
 }
