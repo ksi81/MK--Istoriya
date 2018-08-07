@@ -1,10 +1,10 @@
 .page-3 {
-    /* background: url(../img/two_color_background.png) no-repeat center top fixed; */
-    /* -webkit-background-size: cover;
+    background: url(../img/two_color_background.png) no-repeat center top fixed; */
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
-    /* min-height: 1000px; */
+    background-size: cover; 
+     /* min-height: 1000px;  */
 }
 
 .istory-words {

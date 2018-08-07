@@ -1,6 +1,6 @@
 .line-meta-year {
     position: relative;
-    left: -30%;
+    left: -21%;
     width: 19%;
     background-color: #de437f;
     border: 2px solid #de437f;
@@ -28,14 +28,14 @@
 }
 
 .toltip-box-meta-year {
-    font-size: 50px;
+    font-size: 2.5em;
     color: #DF4380;
     padding-top: 7%;
     font-weight: 700;
 }
 
 .toltip-box-head-year {
-    font-size: 35px;
+    font-size: 2em;
     color: #624B77;
     padding-top: 5%;
     font-weight: 700;
@@ -80,6 +80,19 @@
     padding-top: 2%;
 }
 
+.my-footer{
+    background-color: #F6F6F6;
+    text-align: center;
+}
+
+.img-last {
+    width: 65%;
+    padding-top: 6%;
+}
+.my-text{
+    font-size: 0.8em;
+}
+
 @media only screen and ( max-width: 768px) {
     .toltip-box-meta-year {
         font-size: 35px;
@@ -97,7 +110,7 @@
     }
     .line-meta-year {
         position: relative;
-        left: 21%;
+        left: 1%;
         width: 39%;
         background-color: #de437f;
         border: 2px solid #de437f;

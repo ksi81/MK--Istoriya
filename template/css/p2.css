@@ -162,7 +162,14 @@
         top: 69px;
         left: -34px;
     }
-    
+    .block-wings_award img {
+        overflow: hidden;
+       
+        vertical-align: middle;
+        position: relative;
+        left: 78px;
+        top: 30%;
+    }
     
     .headliners {
         font-size: 3em;
