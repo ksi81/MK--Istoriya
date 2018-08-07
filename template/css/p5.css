@@ -2,55 +2,53 @@
     background-color: #DF4380;
     height: 10px;
 }
+
 .page-5 {
-     background: url(../img/mka_quote_pattern.png) no-repeat center top fixed;
+    background: url(../img/mka_quote_pattern.png) no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-     background-size: cover;
-     min-height: 500px;
+    background-size: cover;
+    min-height: 500px;
 }
-.background2{
+
+.background2 {
     background-color: white;
     border-radius: 5ps solid white;
     width: 50%;
 }
 
-.col-color{
+.col-color {
     background-color: white;
     border-radius: 50px;
     width: 50%;
     min-width: 329px;
     background: white;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 25px;
     margin: 13px;
 }
-.d-block img{
+
+.d-block img {
     width: 100%;
 }
 
-.mk-quote{
+.mk-quote {
     padding-top: 30px;
 }
 
 @media (min-width: 1321px) {}
 
-@media (min-width: 1024px) and (max-width: 1320px) {
-
-}
+@media (min-width: 1024px) and (max-width: 1320px) {}
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .page-5 {
-
         min-height: 319px;
     }
 }
 
 @media (max-width: 767px) {
-    .d-block img{
+    .d-block img {
         width: 50%;
     }
 }
-
-

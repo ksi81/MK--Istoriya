@@ -2,8 +2,6 @@ body {
     font-family: Segoe UI;
 }
 
-
-
 .my-login-photo {
     text-align: end;
     padding-right: 0px;
@@ -63,7 +61,6 @@ body {
     color: #DF4380;
     font-size: 25px;
     font-weight: 700;
-   
 }
 
 .my-header-btn:focus {
@@ -71,7 +68,6 @@ body {
     outline: none;
     outline: none;
 }
-
 
 .login-info {
     display: inline;
@@ -92,97 +88,93 @@ body {
     background-color: #df4380;
 }
 
-
 /* img 
  */
 
- .fancybox-close {
-    display:inline !important;
+.fancybox-close {
+    display: inline !important;
     top: -7px !important;
     right: 1px !important;
     width: 28px !important;
     height: 30px !important;
-    
-    }
+}
 
-
- body {
-	margin:0;
+body {
+    margin: 0;
 }
 
 .image {
-	margin:30px; 
-	float:left;
-	cursor:pointer;
-	max-height:100px;
+    margin: 30px;
+    float: left;
+    cursor: pointer;
+    max-height: 100px;
 }
 
 .popup {
-	position: absolute;
-	height:100%;
-	width:100%;
-	top:0;
-	left:0;
-	display:none;
-	text-align:center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: none;
+    text-align: center;
 }
 
 .popup_bg {
-	background:rgba(0,0,0,0.4);
-	position:absolute;
-	z-index:1;
-	height:100%;
-	width:100%;
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
 }
-
 
 .popup_img {
-	position: relative;
-	margin:0 auto;
-	z-index:2;
-	max-height:94%;
-	max-width:94%;
-	margin:1% 0 0 0;
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+    max-height: 94%;
+    max-width: 94%;
+    margin: 1% 0 0 0;
 }
 
-/* 
 
-@media (min-width: @screen-sm-min) { 
-    /* ... } */
-    @media (min-width: 1321px){}
-    @media (min-width: 1112px) and (max-width: 1320px){}
-    @media (min-width: 752px) and (max-width: 1111px){
-        .my-header-msg {
-            padding-top: 2%;
-        }
+@media (min-width: 1321px) {}
 
-    
-        #carouselExampleIndicators {
-            /* display: none; */
-        }
-        .my-header-name {
-            font-size: 35px;
-            text-align: center;
-        }
-        .mk-line {
-           display: none;
-           
-        }
-        .headliners{
-            font-size: 35px;
-        }
-            
-        .my-header-msg p {
-            font-size: 20px;
-            text-align: center;
-        }
-        .my-header-btn {
-            margin-bottom: 5%;
-        }
+@media (min-width: 1112px) and (max-width: 1320px) {}
 
-
-
+@media (min-width: 752px) and (max-width: 1111px) {
+    .my-header-msg {
+        padding-top: 2%;
     }
-    @media (max-width: 751px){}
-    
+    #carouselExampleIndicators {
+        /* display: none; */
+    }
+    .my-header-name {
+        font-size: 35px;
+        text-align: center;
+    }
+    .mk-line {
+        display: none;
+    }
+    .headliners {
+        font-size: 35px;
+    }
+    .my-header-msg p {
+        font-size: 20px;
+        text-align: center;
+    }
+    .my-header-btn {
+        margin-bottom: 5%;
+    }
+}
 
+@media (max-width: 751px) {
+    .mk-line {
+        padding-top: 9%;
+        padding-left: 16%;
+        padding-bottom: 5%;
+    }
+    .my-button {
+        text-align: center;
+    }
+}

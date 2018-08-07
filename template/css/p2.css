@@ -34,7 +34,6 @@
 }
 
 .toltip-icon {
-
     width: 30px;
     height: 30px;
     background-color: none;
@@ -48,7 +47,6 @@
     left: -35px;
     background-color: white;
     padding: 0;
-    
 }
 
 .toltip-box-meta {
@@ -145,19 +143,17 @@
     max-height: 100%;
     vertical-align: middle;
     position: relative;
-
     left: 78px;
 }
-.img-hide{
+
+.img-hide {
     display: none;
 }
 
 @media (min-width: 1321px) {}
 
 @media (min-width: 1024px) and (max-width: 1320px) {
-    .toltip-icon {
-       
-    }
+    .toltip-icon {}
     .toltip-box-meta {
         font-size: 50px;
         padding-top: 5%;
@@ -209,10 +205,10 @@
         margin-left: 68%;
         padding-bottom: 4%;
     }
-    .block-wings_award{
+    .block-wings_award {
         display: none;
     }
-    .img-hide{
+    .img-hide {
         display: block;
     }
 }
