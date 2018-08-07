@@ -1,5 +1,5 @@
 body {
-    font-family: Segoe UI;
+    font-family: 'Segoe UI';
 }
 
 .element-18-19 {
@@ -9,28 +9,46 @@ body {
     margin: 1%;
 }
 
+.element-18-19 img {
+    padding-top: 13%;
+    width: 70%;
+}
+
 .my-login-photo {
     text-align: end;
-    padding-right: 0px;
+    padding-right: 0%;
+}
+
+.my-login-photo img {
+    padding-top: 10%;
+    width: 30%;
 }
 
 .hr-logo {
     width: 2px;
-    background-color: #df4380;
-    min-height: 40px;
+    background-color: #624B77;
+    min-height: 10%;
+}
+
+.my-header-logo img {
+    width: 50%;
+}
+
+.my-header-consultant {
+    padding-top: 4%;
 }
 
 .login-mk {
-    line-height: 35px;
+    text-align: end;
     color: #624B77;
-    font-size: 16px;
+    font-size: 0.8rem;
     padding-left: 200%;
     font-weight: Bold;
 }
 
 .mk-line {
-    padding-top: 15%;
-    padding-left: 10%;
+    text-align: right;
+    padding-top: 25%;
 }
 
 .my-header {
@@ -44,14 +62,9 @@ body {
 
 .my-header-name {
     color: #df4380;
-    text-shadow: 4px 4px 4px rgba(150, 150, 150, 0.5);
-    font-size: 45px;
+    font-size: 2.5em;
     font-weight: bold;
-    /* font-family: Segoe UI; */
-}
-
-.my-header-msg {
-    padding-top: 15%;
+    padding-top: 10%;
 }
 
 .my-header-msg p {
@@ -59,15 +72,14 @@ body {
 }
 
 .my-header-btn {
-    width: 300px;
-    height: 55px;
     border: 4px solid #624B77;
     border-radius: 30px;
     padding: 5px 40px 5px 40px;
     background-color: white;
     color: #DF4380;
-    font-size: 25px;
+    font-size: 1em;
     font-weight: 700;
+    width: 65%;
 }
 
 .my-header-btn:focus {
@@ -144,6 +156,9 @@ body {
     margin: 1% 0 0 0;
 }
 
+.my-carousel-2{
+    display: none;
+}
 
 @media (min-width: 1321px) {}
 
@@ -153,25 +168,22 @@ body {
     .my-header-msg {
         padding-top: 2%;
     }
-    #carouselExampleIndicators {
-        /* display: none; */
-    }
-    .my-header-name {
-        font-size: 35px;
-        text-align: center;
+    .my-header-logo img {
+        width: 63%;
     }
     .mk-line {
-        display: none;
+        text-align: right;
+        padding-top: 0%;
     }
     .headliners {
         font-size: 35px;
     }
-    .my-header-msg p {
-        font-size: 20px;
-        text-align: center;
-    }
     .my-header-btn {
         margin-bottom: 5%;
+    }
+    .my-login-photo img {
+        padding-top: 21%;
+        width: 30%;
     }
 }
 
@@ -179,14 +191,34 @@ body {
     .element-18-19 img {
         width: 60%;
         margin-left: 10%;
-       
+    }
+    .my-login-photo img {
+        padding-top: 19%;
+        width: 30%;
+    }
+    .my-header-logo img {
+        width: 49%;
+        padding-top: 7%;
     }
     .mk-line {
-        padding-top: 9%;
-        padding-left: 16%;
-        padding-bottom: 5%;
+        padding-bottom: 12%;
+        text-align: right;
+        margin-top: -12%;
     }
-    .my-button {
-        text-align: center;
+    .mk-line img {
+        width: 50%;
+    }
+    .my-carousel {
+        display: none;
+    }
+    .my-carousel-2{
+        display: inline;
+    }
+    .element-18-19 {
+        display: none;
+    }
+    .my-header-name {
+        font-size: 2em;
+        padding-top: 7%;
     }
 }

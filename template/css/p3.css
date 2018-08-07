@@ -1,9 +1,9 @@
 .page-3 {
-    background: url(../img/two_color_background.png) no-repeat center top fixed;
-    -webkit-background-size: cover;
+    /* background: url(../img/two_color_background.png) no-repeat center top fixed; */
+    /* -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
     /* min-height: 1000px; */
 }
 
@@ -194,6 +194,19 @@
         height: auto;
         margin-top: 0%;
         background-image: none;
+    }
+    .istory-words img{
+        width: 70%;
+    
+    }
+
+    .line4 {
+       
+        top: -55%;
+        left: 18%;
+    }
+    .girl-awards {
+        text-align: center;
     }
 }
 
