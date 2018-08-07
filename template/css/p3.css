@@ -169,11 +169,14 @@
         -moz-box-shadow: 0 8px 6px -6px grey;
         ;
         box-shadow: 0 8px 6px -6px grey;
+        flex: 0 0 51%;
+       
     }
     .awards-background {
         height: auto;
         margin-top: 0%;
         background-image: none;
+        margin-left: -63px;
     }
 }
 
@@ -190,6 +193,7 @@
         -moz-box-shadow: 0 8px 6px -6px grey;
         ;
         box-shadow: 0 8px 6px -6px grey;
+        flex: 0 0 51%;
     }
     .awards-background {
         height: auto;
