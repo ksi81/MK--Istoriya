@@ -95,9 +95,15 @@ body {
 
 /* img 
  */
+ body {
+	margin:0;
+}
+
 .image {
-	margin:30px;
-	cursor:zoom-in;
+	margin:30px; 
+	float:left;
+	cursor:pointer;
+	max-height:100px;
 }
 
 .popup {
@@ -111,31 +117,22 @@ body {
 }
 
 .popup_bg {
-	background:rgba(0,0,0,0.3);
-	position:fixed;
+	background:rgba(0,0,0,0.4);
+	position:absolute;
 	z-index:1;
-	top: 0;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	width: auto;
-  height: auto;
+	height:100%;
+	width:100%;
 }
 
 
 .popup_img {
-	position: fixed;
+	position: relative;
+	margin:0 auto;
 	z-index:2;
-	left: 50%;
-	top: 50%;
-	transform: translate(-50%,-50%);
-	max-height: 90%;
+	max-height:94%;
+	max-width:94%;
+	margin:1% 0 0 0;
 }
-
-.popup_img {
-  pointer-events: none;
-}
-
 
 /* 
 
