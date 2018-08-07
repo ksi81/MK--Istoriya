@@ -95,6 +95,17 @@ body {
 
 /* img 
  */
+
+ .fancybox-close {
+    display:inline !important;
+    top: -7px !important;
+    right: 1px !important;
+    width: 28px !important;
+    height: 30px !important;
+    
+    }
+
+
  body {
 	margin:0;
 }

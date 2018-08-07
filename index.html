@@ -10,28 +10,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <SCRIPT type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></SCRIPT>
-    <script src="template/js/img.js"></script>
+    <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+    <!-- <script src="template/js/img.js"></script> -->
 
     <!-- ??/ -->
-    <!-- Add jQuery library -->
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+ <!-- 1. Add latest jQuery and fancyBox files -->
+ <!-- <link rel="stylesheet" type="text/css" href="template/fancybox-master/fancybox-master/src/css/"> -->
 
-    <!-- Add mousewheel plugin (this is optional) -->
-    <script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
 
-    <!-- Add fancyBox -->
-    <link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
-    <script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
-
-    <!-- Optionally add helpers - button, thumbnail and/or media -->
-    <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen"
-    />
-    <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-    <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
-
-    <link rel="stylesheet" href="/fancybox/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen"
-    />
-    <script type="text/javascript" src="/fancybox/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
 
     <!-- // -->
 
@@ -369,19 +356,12 @@
                     </p>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6  girl-awards">
-                    <img id="image" src="template/img/girl_awards.png" alt="" style="width: 80%">
-                    <a class="fancybox" rel="group" href="template/img/girl_awards.png">
-                        <img src="template/img/girl_awards.png" alt="" />
+                    
+                        <a href="template/img/girl_awards.png" data-fancybox data-caption="Caption for single image">
+                        <img id="image" src="template/img/girl_awards.png" alt="" style="width: 80%">
                     </a>
-                    <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet augue et magna interdum hendrerit" class="fancybox fancybox-clos"
-                        href="template/img/girl_awards.png">
-                        <img src="template/img/girl_awards.pngg" alt="" />
-                    </a>
-                    <a title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin imperdiet augue et magna interdum hendrerit" class="fancybox"
-                        href="http://fancyapps.com/fancybox/demo/1_b.jpg">
-                        <img src="http://fancyapps.com/fancybox/demo/1_s.jpg" alt="" />
-                    </a>
-                </div>
+                   
+
             </div>
         </div>
     </div>
@@ -713,17 +693,12 @@
 
 
 
+    <script src="template/js/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+   
 
 
 
-
-
-
-    <script>
-        $(document).ready(function () {
-            // $('body').scrollspy({target: ".navbar", offset: 50});   
-        });
-    </script>
 
 
 </body>

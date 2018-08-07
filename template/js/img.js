@@ -1,7 +1,3 @@
-$(".fancybox").fancybox({
-	helpers : {
-			title: {
-					type: 'outside'
-			}
-	}
+$('[data-fancybox="gallery"]').fancybox({
+	// Options will go here
 });
