@@ -87,8 +87,9 @@
 }
 
 .half-year-icon {
-    margin-left: 75%;
-    padding-bottom: 8%;
+    margin-left: 79%;
+    padding-bottom: 5%;
+    width: 15%;
 }
 
 .party-div {
@@ -125,8 +126,9 @@
     }
     .half-year-icon {
     
-        margin-left: 68%;
+        margin-left: 79%;
         padding-bottom: 5%;
+        width: 15%;
     }
     .toltip-icon2 {
         top: -22px;

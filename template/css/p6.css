@@ -23,8 +23,9 @@
 }
 
 .year-icon {
-    margin-left: 76%;
+    margin-left: 79%;
     padding-bottom: 5%;
+    width: 15%;
 }
 
 .toltip-box-meta-year {
@@ -83,6 +84,7 @@
 .my-footer{
     background-color: #F6F6F6;
     text-align: center;
+    padding-bottom: 1%;
 }
 
 .img-last {
@@ -105,8 +107,9 @@
         font-size: 2.5em;
     }
     .year-icon {
-        margin-left: 68%;
+        margin-left: 79%;
         padding-bottom: 5%;
+        width: 15%;
     }
     .line-meta-year {
         position: relative;
