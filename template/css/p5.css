@@ -86,4 +86,13 @@ left: 8%;
         position: relative;
         left: 21%;
     }
+
+    .col-color {
+     
+        min-width: 381px;
+       
+    }
+    .mk-photo {
+        width: 32%;
+    }
 }
