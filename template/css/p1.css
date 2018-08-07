@@ -2,6 +2,13 @@ body {
     font-family: Segoe UI;
 }
 
+.element-18-19 {
+    position: absolute;
+    z-index: 10;
+    padding: 0;
+    margin: 1%;
+}
+
 .my-login-photo {
     text-align: end;
     padding-right: 0px;
@@ -169,6 +176,11 @@ body {
 }
 
 @media (max-width: 751px) {
+    .element-18-19 img {
+        width: 60%;
+        margin-left: 10%;
+       
+    }
     .mk-line {
         padding-top: 9%;
         padding-left: 16%;
