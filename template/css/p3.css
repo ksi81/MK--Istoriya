@@ -204,6 +204,14 @@
         width: 70%;
     
     }
+    .line3 {
+        align-items: flex-end;
+        width: 82%;
+       
+        border: 1px solid #624b77;
+        position: relative;
+        top: -51%;
+    }
 
     .line4 {
        
@@ -212,6 +220,11 @@
     }
     .girl-awards {
         text-align: center;
+    }
+    .line4 {
+       
+        border: 1px solid #de437f;
+        
     }
 }
 

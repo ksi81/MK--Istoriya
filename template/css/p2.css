@@ -55,7 +55,7 @@
 }
 
 .toltip-box-meta {
-    font-size: 3.5em;
+    font-size: 2.5em;
     padding-top: 5%;
     color: #DF4380;
     font-weight: bold;
@@ -63,7 +63,7 @@
 }
 
 .toltip-box-head {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #624B77;
     padding-top: 5%;
     color: #624b77;
@@ -91,7 +91,7 @@
     padding-top: 5%;
     color: #DF4380;
     font-weight: 700;
-    font-size: 2.5em;
+    font-size: 2em;
     /* margin-right: 30px; */
 }
 
@@ -219,13 +219,29 @@
 }
 
 @media (max-width: 375px) {
-   
+    .line2 {
+        align-items: flex-end;
+        width: 38%;
+        background-color: #624b77;
+        border: 1px solid #624b77;
+        position: relative;
+        left: 30%;
+    }
     .toltip-icon {
         top: -20px;
         left: 57px;
     }
     .block-wings_award img {
         display: none;
+    }
+    .results-box-head {
+       
+        font-size: 1em;
+       
+    }
+    .toltip-box-head {
+        font-size: 1em;
+       
     }
 }
     

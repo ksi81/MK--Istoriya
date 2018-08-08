@@ -11,11 +11,12 @@
 
 .half-year-period {
     padding: 5% 10% 0 0;
-    text-align: right
+    text-align: right;
+    font-size: 0.8em;
 }
 
-.toltip-box-headhalf-year {
-    font-size: 2.5em;
+.headhalf-year {
+    font-size: 2em;
     color: #DF4380;
     font-weight: 700;
 }
@@ -37,27 +38,27 @@
 }
 
 .toltip-box-head-headhalf-year {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #DF4380;
     padding-top: 15%;
     font-weight: 700;
 }
 
 .toltip-box-meta-headhalf-year {
-    font-size: 3.0em;
+    font-size: 2.5em;
     color: #624B77;
     font-weight: 700;
 }
 
 .toltip-box-meta-headhalf-year2 {
-    font-size: 3.0em;
+    font-size: 2.5em;
     color: #624B77;
     padding-top: 7%;
     font-weight: 700;
 }
 
 .prize-headhalf-year {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #DF4380;
     /* padding-top: 15%; */
     font-weight: 700;
@@ -144,4 +145,23 @@
         padding-top: 7%;
         font-weight: 700;
     }
+    .headhalf-year {
+        font-size: 1em;
+      
+    }
+    .pink-line3 {
+        position: relative;
+        left: 4%;
+        width: 60%;
+        background-color: #624B77;
+        border: 1px solid #624B77;
+    }
+    .pink-line2 {
+        position: relative;
+        left: -15%;
+        width: 45%;
+        background-color: #624B77;
+        border: 1px solid #624B77;
+    }
+
 }

@@ -1,7 +1,7 @@
 .line-meta-year {
     position: relative;
     left: -21%;
-    width: 19%;
+    width: 31%;
     background-color: #de437f;
     border: 2px solid #de437f;
 }
@@ -36,7 +36,7 @@
 }
 
 .toltip-box-head-year {
-    font-size: 2.5em;
+    font-size: 2em;
     color: #624B77;
     padding-top: 5%;
     font-weight: 700;
@@ -81,7 +81,7 @@
     padding-top: 2%;
 }
 
-.my-footer{
+.my-footer {
     background-color: #F6F6F6;
     text-align: center;
     padding-bottom: 1%;
@@ -91,7 +91,8 @@
     width: 65%;
     padding-top: 6%;
 }
-.my-text{
+
+.my-text {
     font-size: 0.8em;
 }
 
@@ -104,7 +105,7 @@
         left: -410px;
     }
     .toltip-box-meta-year {
-        font-size: 2.5em;
+        font-size: 2em;
     }
     .year-icon {
         margin-left: 79%;
@@ -112,15 +113,27 @@
         width: 15%;
     }
     .line-meta-year {
-        position: relative;
-        left: 1%;
-        width: 39%;
-        background-color: #de437f;
-        border: 2px solid #de437f;
+        left: -21%;
+        width: 29%;
+        border: 1px solid #de437f;
     }
     .img-last-3 {
         width: 71%;
     }
     .toltip-box-head-year {
-        font-size: 2em;}
+        font-size: 1em;
+    }
+    .line7 {
+        left: -6%;
+        width: 45%;
+        border: 1px solid #de437f;
+    }
+    .pink-line {
+    
+        border: 1px solid #de437f;
+    }
+    .pink-line6 {
+      
+        border: 1px solid #624B77;
+    }
 }

@@ -1,6 +1,21 @@
 body {
     font-family: 'Segoe UI';
 }
+.carousel-indicators li {
+    position: relative;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    background-color: #FFFFFF;
+}
+.carousel-indicators .active {
+    background-color: #DF4380;
+    
+}
 
 .element-18-19 {
     position: absolute;
