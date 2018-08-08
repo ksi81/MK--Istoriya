@@ -65,15 +65,16 @@
     ;
 }
 
-.ring-icon img{
+.ring-icon img {
     width: 20%;
+    margin-bottom: -5%;
 }
 
 .img-last-2 {
     width: 100%;
 }
 
-.ring-cube-2{
+.ring-cube-2 {
     display: none;
 }
 
@@ -127,6 +128,7 @@
     }
     .img-last-3 {
         width: 71%;
+        margin-top: -3%;
     }
     .toltip-box-head-year {
         font-size: 1em;
@@ -137,18 +139,18 @@
         border: 1px solid #de437f;
     }
     .pink-line {
-    
         border: 1px solid #de437f;
     }
     .pink-line6 {
-      
         border: 1px solid #624B77;
     }
-    .ring-cube-2{
+    .ring-cube-2 {
         display: inline;
     }
-    .ring-cube{
+    .ring-cube {
         display: none;
     }
-    
+    .img-last {
+        padding-top: 24%;
+    }
 }

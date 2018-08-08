@@ -137,7 +137,7 @@
 
 .girl-awards {
     position: relative;
-    /* top: 57px; */
+    margin-top: 10%;
 }
 
 .pink2 {
@@ -197,13 +197,7 @@
         height: 350px;
         border-radius: 30px;
         position: none;
-        /* top: -48px; */
-        -webkit-box-shadow: 0 8px 6px -6px grey;
-        ;
-        -moz-box-shadow: 0 8px 6px -6px grey;
-        ;
-        box-shadow: 0 8px 6px -6px grey;
-        flex: 0 0 51%;
+       
     }
     .awards-background {
         height: auto;
@@ -226,6 +220,7 @@
     }
     .girl-awards {
         text-align: center;
+        margin-top: 2%;
     }
     .line4 {
         border: 1px solid #de437f;

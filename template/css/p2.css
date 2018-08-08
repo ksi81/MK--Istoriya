@@ -22,6 +22,12 @@
     background-color: #de437f;
     border: 2 ps solid rebeccapurple;
     padding: 5px;
+    -webkit-box-shadow: 0 8px 6px -6px grey;
+    ;
+    -moz-box-shadow: 0 8px 6px -6px grey;
+    ;
+    box-shadow: 0 8px 6px -6px grey;
+    flex: 0 0 51%;
 }
 
 .toltip-box {
@@ -68,6 +74,7 @@
     padding-top: 5%;
     color: #624b77;
     font-weight: 700;
+    /* margin-top: -3%; */
 }
 
 .pink-line {
@@ -160,6 +167,10 @@
 
 .q1-prize-2{
     display: none;
+}
+.q1-prize img{
+    /* width: 15%;    */
+    margin-bottom: -5%;
 }
 
 @media (min-width: 1321px) {}
@@ -259,6 +270,7 @@
     }
     .toltip-box-head {
         font-size: 1em;
+        /* margin-top: -3%; */
        
     }
     .q1-prize{
@@ -266,6 +278,7 @@
     }
     .q1-prize-2 img{
         width: 15%;   
+        margin-bottom: -8%;
     }
 
   
