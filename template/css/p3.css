@@ -34,9 +34,15 @@
 
 .touch-icon {
     position: relative;
-    left: -80px;
+    /* left: -80px; */
     top: 15px;
-    padding-top: 20%;
+    /* padding-top: 20%; */
+    font-size: 1em;
+    color: #624B77;
+    padding-top: 5%;
+    color: #624b77;
+    font-weight: 700;
+    text-align: center;
 }
 
 .wings {
@@ -146,7 +152,7 @@
 
 
 :focus {
-    outline: non;
+    outline: none;
 }
 @media (min-width: 1321px) {}
 
