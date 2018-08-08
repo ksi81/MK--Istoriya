@@ -102,6 +102,10 @@
     margin-bottom: -200px;
 }
 
+.party-cube-2 {
+    display: none;
+}
+
 @media (min-width: 1321px) {}
 
 @media (min-width: 1112px) and (max-width: 1320px) {}
@@ -114,19 +118,15 @@
 }
 
 @media (max-width: 751px) {
-
     .toltip-box-head-headhalf-year {
         font-size: 2em;
-               padding-top: 0%;
-    
+        padding-top: 0%;
     }
-
     .toltip-box-meta-headhalf-year {
         font-size: 2em;
         font-weight: 700;
     }
     .half-year-icon {
-    
         margin-left: 79%;
         padding-bottom: 5%;
         width: 15%;
@@ -141,14 +141,19 @@
         margin-bottom: 217px;
     }
     .toltip-box-meta-headhalf-year2 {
-        font-size: 2.5em;
+        font-size: 2em;
         padding-top: 7%;
         font-weight: 700;
     }
     .headhalf-year {
         font-size: 1em;
-      
     }
+    .prize-headhalf-year {
+        font-size: 1.5em;
+   
+       
+    }
+
     .pink-line3 {
         position: relative;
         left: 4%;
@@ -163,5 +168,12 @@
         background-color: #624B77;
         border: 1px solid #624B77;
     }
-
+    .party-cube-2 {
+        display: block;
+        position: relative;
+        left: -10%;
+    }
+    .party-cube {
+        display: none;
+    }
 }

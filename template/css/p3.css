@@ -36,6 +36,7 @@
     position: relative;
     left: -80px;
     top: 15px;
+    padding-top: 20%;
 }
 
 .wings {
@@ -143,6 +144,10 @@
     margin: 0;
 }
 
+
+:focus {
+    outline: non;
+}
 @media (min-width: 1321px) {}
 
 @media (min-width: 1112px) and (max-width: 1320px) {}

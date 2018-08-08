@@ -84,6 +84,9 @@
     padding-bottom: 8%;
 }
 
+.q1-prize img {
+    width: 20%;
+}
 .my-results {}
 
 .results-box-head {
@@ -131,7 +134,7 @@
 }
 
 .block-wings_award {
-    width: 600px;
+    width: 664px;
     /* height: 300px; */
     /* background: #383838; */
     /* line-height: 200px; */
@@ -152,6 +155,10 @@
 }
 
 .img-hide {
+    display: none;
+}
+
+.q1-prize-2{
     display: none;
 }
 
@@ -199,6 +206,10 @@
         font-weight: bold;
         padding: 0;
     }
+    .toltip-box-head {
+        font-size: 1em;
+      
+    }
 }
 
 @media (max-width: 767px) {
@@ -214,6 +225,12 @@
         display: none;
     }
     .img-hide {
+        display: block;
+    }
+    .q1-prize{
+        display: none;
+    }
+    .q1-prize-2{
         display: block;
     }
 }
@@ -234,6 +251,7 @@
     .block-wings_award img {
         display: none;
     }
+    
     .results-box-head {
        
         font-size: 1em;
@@ -243,5 +261,10 @@
         font-size: 1em;
        
     }
+    .q1-prize{
+        display: none;
+    }
+
+  
 }
     

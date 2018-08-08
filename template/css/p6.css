@@ -65,8 +65,16 @@
     ;
 }
 
+.ring-icon img{
+    width: 20%;
+}
+
 .img-last-2 {
     width: 100%;
+}
+
+.ring-cube-2{
+    display: none;
 }
 
 .last-div {
@@ -136,4 +144,11 @@
       
         border: 1px solid #624B77;
     }
+    .ring-cube-2{
+        display: inline;
+    }
+    .ring-cube{
+        display: none;
+    }
+    
 }
