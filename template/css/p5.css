@@ -77,7 +77,12 @@ left: 8%;
     .mk-mk-quote-img {
         width: 25%;
         position: relative;
-        /* right: 1%; */
+
+          
+            right: 1%;
+            left: 70%;
+            width: 30%;
+            top: -35%;
         
         
     }
@@ -88,8 +93,8 @@ left: 8%;
     }
 
     .col-color {
-     
-        min-width: 381px;
+        margin-top: 30%;
+        min-width: 346px;
        
     }
     .mk-photo {
