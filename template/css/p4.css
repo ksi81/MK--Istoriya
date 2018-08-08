@@ -117,6 +117,19 @@
     }
 }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .block-wings_award img {
+        overflow: hidden;
+        vertical-align: middle;
+        position: relative;
+        left: -27px;
+        top: 10%;
+    }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+   
+}
+
 @media (min-width: 752px) and (max-width: 768px) {
     .block-wings_award {
         width: 664px;
@@ -127,13 +140,7 @@
         left: -48px;
         top: -45px;
     }
-    .block-wings_award img {
-        overflow: hidden;
-        vertical-align: middle;
-        position: relative;
-        left: -17px;
-        top: 10%;
-    }
+    
 
     .my-hide-class-block{
         display: none;

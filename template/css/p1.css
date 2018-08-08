@@ -1,6 +1,7 @@
 body {
     font-family: 'Segoe UI';
 }
+
 .carousel-indicators li {
     position: relative;
     -ms-flex: 0 1 auto;
@@ -12,9 +13,9 @@ body {
     text-indent: -999px;
     background-color: #FFFFFF;
 }
+
 .carousel-indicators .active {
     background-color: #DF4380;
-    
 }
 
 .element-18-19 {
@@ -63,7 +64,8 @@ body {
 
 .mk-line {
     text-align: right;
-    padding-top: 25%;
+    margin-top: 10%;
+    margin-left: 51%;
 }
 
 .my-header {
@@ -77,13 +79,13 @@ body {
 
 .my-header-name {
     color: #df4380;
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: bold;
     padding-top: 10%;
 }
 
 .my-header-msg p {
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .my-header-btn {
@@ -92,15 +94,32 @@ body {
     padding: 5px 40px 5px 40px;
     background-color: white;
     color: #DF4380;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 700;
-    width: 65%;
+    min-width: 40%;
+    margin-bottom: 1%;
 }
 
-.my-header-btn:focus {
-    background-color: rgb(221, 132, 166);
+.my-btn {
+    cursor: pointer;
+}
+
+.my-btn:focus {
+    outline: 0;
+    box-shadow: rgba(223, 67, 128, .25);
+}
+
+.my-btn:hover, .my-btn:active, .my-btn:focus {
+    color: rgba(223, 67, 128, .25);
+    outline: none;
+    text-decoration: none;
+}
+
+.my-header-btn:hover {
+    background-color: rgba(223, 67, 128, 0.7);
     outline: none;
     outline: none;
+    color: white;
 }
 
 .login-info {
@@ -171,7 +190,7 @@ body {
     margin: 1% 0 0 0;
 }
 
-.my-carousel-2{
+.my-carousel-2 {
     display: none;
 }
 
@@ -179,26 +198,73 @@ body {
 
 @media (min-width: 1112px) and (max-width: 1320px) {}
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    .my-header-name {
+        color: #DF4380;
+        font-size: 2em;
+        font-weight: bold;
+        padding-top: 0%;
+    }
+    .my-header-msg {
+        padding-top: -10%;
+    }
+    .my-header-btn {
+        border: 4px solid #624B77;
+        border-radius: 30px;
+        /* padding: 5px 40px 5px 40px; */
+        background-color: white;
+        color: #DF4380;
+        font-size: 1em;
+        font-weight: 700;
+        min-width: 40%;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .my-header-name {
+        padding-top: 0%;
+    }
+    .my-header-msg p {
+        font-size: 0.7em;
+    }
+    .my-header-name {
+        font-size: 1.5em;
+    }
+    .my-header-btn {
+        padding: 1px 20px 5px 10px;
+    }
+    .mk-line {
+        margin-top: -15%;
+        margin-left: 50%;
+    }
+    .mk-line {
+    
+    }
+}
+
 @media (min-width: 752px) and (max-width: 1111px) {
     .my-header-msg {
-        padding-top: 2%;
+        /* padding-top: 2%; */
     }
     .my-header-logo img {
         width: 63%;
     }
     .mk-line {
         text-align: right;
-        padding-top: 0%;
+        padding-top: 30%;
     }
     .headliners {
         font-size: 35px;
     }
     .my-header-btn {
-        margin-bottom: 5%;
+        margin-bottom: 1%;
     }
     .my-login-photo img {
         padding-top: 21%;
         width: 30%;
+    }
+    .mk-line img{
+        width: 60%;
     }
 }
 
@@ -216,9 +282,9 @@ body {
         padding-top: 7%;
     }
     .mk-line {
-        padding-bottom: 12%;
+        padding-bottom: 5%;
         text-align: right;
-        margin-top: -12%;
+        margin-top: 10%;
     }
     .mk-line img {
         width: 50%;
@@ -226,7 +292,7 @@ body {
     .my-carousel {
         display: none;
     }
-    .my-carousel-2{
+    .my-carousel-2 {
         display: inline;
     }
     .element-18-19 {
