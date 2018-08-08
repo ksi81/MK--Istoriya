@@ -110,12 +110,52 @@
 
 @media (min-width: 1112px) and (max-width: 1320px) {}
 
-@media (min-width: 752px) and (max-width: 1111px) {
+@media (min-width: 769px) and (max-width: 1111px) {
     .party-div {
         position: relative;
         top: -400px;
     }
 }
+
+@media (min-width: 752px) and (max-width: 768px) {
+    .block-wings_award {
+        width: 664px;
+      
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        left: -48px;
+        top: -45px;
+    }
+    .block-wings_award img {
+        overflow: hidden;
+        vertical-align: middle;
+        position: relative;
+        left: -17px;
+        top: 10%;
+    }
+
+    .my-hide-class-block{
+        display: none;
+    }
+    .toltip-box-meta-headhalf-year2 {
+        font-size: 2em;
+        color: #624B77;
+        padding-top: 7%;
+        font-weight: 700;
+    }
+    
+    .party-div {
+        position: relative;
+        top: -400px;
+    }
+    .party-div {
+        position: relative;
+        top: -300px;
+    }
+}
+
+
 
 @media (max-width: 751px) {
     .toltip-box-head-headhalf-year {
@@ -172,6 +212,8 @@
         display: block;
         position: relative;
         left: -10%;
+        margin-bottom: -20%;
+    margin-top: -20%;
     }
     .party-cube {
         display: none;

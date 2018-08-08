@@ -184,6 +184,10 @@
         font-weight: bold;
         padding: 0;
     }
+    .block-wings_award {
+        width: 541px;
+       
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
