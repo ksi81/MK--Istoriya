@@ -1,10 +1,10 @@
 .page-3 {
-    background: url(../img/two_color_background.png) no-repeat center top fixed; */
-    -webkit-background-size: cover;
+    background: url(../img/two_color_background.png) no-repeat center top fixed;
+    */ -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; 
-     /* min-height: 1000px;  */
+    background-size: cover;
+    /* min-height: 1000px;  */
 }
 
 .istory-words {
@@ -150,10 +150,10 @@
     margin: 0;
 }
 
-
 :focus {
     outline: none;
 }
+
 @media (min-width: 1321px) {}
 
 @media (min-width: 1112px) and (max-width: 1320px) {}
@@ -181,7 +181,6 @@
         ;
         box-shadow: 0 8px 6px -6px grey;
         flex: 0 0 51%;
-       
     }
     .awards-background {
         height: auto;
@@ -211,21 +210,17 @@
         margin-top: 0%;
         background-image: none;
     }
-    .istory-words img{
+    .istory-words img {
         width: 70%;
-    
     }
     .line3 {
         align-items: flex-end;
         width: 82%;
-       
         border: 1px solid #624b77;
         position: relative;
         top: -51%;
     }
-
     .line4 {
-       
         top: -55%;
         left: 18%;
     }
@@ -233,9 +228,6 @@
         text-align: center;
     }
     .line4 {
-       
         border: 1px solid #de437f;
-        
     }
 }
-
