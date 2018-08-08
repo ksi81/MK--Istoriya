@@ -264,6 +264,9 @@
     .q1-prize{
         display: none;
     }
+    .q1-prize-2 img{
+        width: 15%;   
+    }
 
   
 }
