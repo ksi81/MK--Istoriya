@@ -68,7 +68,7 @@
             <div class="col col-lg-2">
 
             </div>
-            <div class="col-md-auto">
+            <div class="col-md-auto btn-box">
                 <button class="my-table-btn btn-2 my-btn">Бізнес-Група</button>
                 <button class="my-table-btn btn-3 my-btn ">Національна гілка</button>
             </div>
@@ -85,7 +85,8 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-offset-1 ">
-                <div class='toltip'>
+                <div class=''>
+                    <!-- <div class='toltip'> -->
                     <div class="table-toltip-box">
                         <h4 class="my-title">Суми продажу засобів системного
                             <br> догляду Консультантів Бізнес-Групи (у грн.)</h4>
@@ -95,14 +96,32 @@
 
 
                         <div id="list_wrapper" class="dataTables_wrapper" role="grid">
-                            <div class="col-md-6 offset-md-6">
-                                <div class="input-group mb-3">
+                            <div class="col-md-6 offset-md-6 checkbox">
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">всі Консультнати</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">тільки Лідери</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+
+                                    <input type="text" class="form-control" placeholder="пошук по списку" aria-label="" aria-describedby="basic-addon1">
+
+                                </div>
+                                <!-- <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3" disabled>
+                                            <label class="form-check-label" for="inlineRadio3">3 (disabled)</label>
+                                          </div> -->
+                                <!-- <div class="input-group mb-3">
                                     <div class="input-group-prepend">
                                         <button class="btn btn-outline-secondary" type="button">всі Консультнати</button>
-                                        <button class="btn btn-outline-secondary" type="button">тільк Лідери</button>
+                                        <button class="btn btn-outline-secondary" type="button">тільки Лідери</button>
                                     </div>
                                     <input type="text" class="form-control" placeholder="пошук по списку" aria-label="" aria-describedby="basic-addon1">
-                                </div>
+                                </div> -->
 
                                 <div class="dataTables_filter" id="list_filter">
 
@@ -119,7 +138,11 @@
                                     <th rowspan="2" class="sorting" role="columnheader" tabindex="0" aria-controls="list" colspan="1" aria-label="Конс. № ГО: activate to sort column ascending">Конс. № ГО</th>
                                     <th colspan="4" rowspan="1">Квартал</th>
                                     <th rowspan="2" class="sorting_asc" role="columnheader" tabindex="0" aria-controls="list" colspan="1" aria-sort="ascending"
+                                        aria-label="Рік: activate to sort column descending">1-ше півріччя</th>
+                                    <th rowspan="2" class="sorting_asc" role="columnheader" tabindex="0" aria-controls="list" colspan="1" aria-sort="ascending"
                                         aria-label="Рік: activate to sort column descending">Рік</th>
+                                    <th rowspan="2" class="sorting_asc" role="columnheader" tabindex="0" aria-controls="list" colspan="1" aria-sort="ascending"
+                                        aria-label="Рік: activate to sort column descending">Наявність квартальної перемоги</th>
                                 </tr>
                                 <tr role="row">
                                     <th class="sorting" role="columnheader" tabindex="0" aria-controls="list" rowspan="1" colspan="1" aria-label="1: activate to sort column ascending">1</th>
@@ -139,6 +162,8 @@
                                     <th rowspan="1" colspan="1">131</th>
                                     <th rowspan="1" colspan="1">134</th>
                                     <th rowspan="1" colspan="1">501</th>
+                                    <th rowspan="1" colspan="1">110501</th>
+                                    <th rowspan="1" colspan="1">так</th>
                                 </tr>
                             </tfoot>
                             <tbody role="alert" aria-live="polite" aria-relevant="all">
@@ -147,11 +172,13 @@
                                     <td class=" ">001376330</td>
                                     <td class=" "> </td>
                                     <td class=" "></td>
-                                    <td class=" ">0</td>
-                                    <td class=" ">0</td>
-                                    <td class=" ">0</td>
-                                    <td class=" ">1</td>
-                                    <td class="  sorting_1">1</td>
+                                    <td class=" ">3240</td>
+                                    <td class=" ">12220</td>
+                                    <td class=" ">12323</td>
+                                    <td class=" ">12312</td>
+                                    <td class="  sorting_1">1324</td>
+                                    <td class="  sorting_1">2</td>
+                                    <td class=" ">так</td>
                                 </tr>
                                 <tr class="even">
                                     <td class="">Болячевец Светлана</td>
@@ -163,6 +190,8 @@
                                     <td class=" ">1</td>
                                     <td class=" ">0</td>
                                     <td class="  sorting_1">1</td>
+                                    <td class="  sorting_1">2</td>
+                                    <td class=" ">так</td>
                                 </tr>
                                 <tr class="odd">
                                     <td class="">Бондаренко Татьяна</td>
@@ -174,6 +203,8 @@
                                     <td class=" ">1</td>
                                     <td class=" ">0</td>
                                     <td class="  sorting_1">1</td>
+                                    <td class="  sorting_1">2</td>
+                                    <td class=" ">ні</td>
                                 </tr>
                                 <tr class="even">
                                     <td class="">Бояр Анна</td>
@@ -185,6 +216,8 @@
                                     <td class=" ">0</td>
                                     <td class=" ">0</td>
                                     <td class="  sorting_1">1</td>
+                                    <td class="  sorting_1">2</td>
+                                    <td class=" ">так</td>
                                 </tr>
                                 <tr class="odd">
                                     <td class="">Будьонна Оксана</td>
